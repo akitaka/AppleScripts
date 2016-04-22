@@ -60,4 +60,6 @@ tell application "Safari"
 			document.getElementById('user').getElementsByClassName('action')[0].firstElementChild.click();
 		" in document 1
 	end if
+	delay 2
+	close document 1
 end tell
